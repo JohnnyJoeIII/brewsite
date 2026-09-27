@@ -3,5 +3,8 @@
 {% block main %}
 <p>Welcome to our brewsite page</p>
 <p>{{ user }}</p>
+<img src="{{url_for('static', filename = 'images/beer.png') }}" alt="Cold glass of beer"  width="400" height="400">
 
+<p>Welcome to Brewsite! Learn about different types of beer, explore breweries, and discover what makes each beer unique.
+ Use the navigation above to explore our site and learn more about the world of brewing.</p>
 {% endblock main %}
